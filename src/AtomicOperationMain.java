@@ -10,7 +10,7 @@ public class AtomicOperationMain {
     }
 }
 
-class SharedAtomicInteger {
+class SharedValue {
     static AtomicInteger atomicInteger = new AtomicInteger(0);
 }
 
@@ -26,6 +26,6 @@ class MyThreadAtomicOperation implements Runnable {
     public void run() {
         for (int i = 1; i <= 3; i++)
             System.out.println("Thread " + name + " -> received: " +
-                    SharedAtomicInteger.atomicInteger.getAndSet(i));
+                    SharedValue.atomicInteger.getAndSet(i));
     }
 }
