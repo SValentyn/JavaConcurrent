@@ -11,7 +11,7 @@ public class SemaphoreMain {
     }
 }
 
-class Shared {
+class SharedValue {
     static int count = 0;
 }
 
@@ -32,8 +32,8 @@ class IncThread implements Runnable {
             semaphore.acquire();
             System.out.println("Thread " + name + " gets permission");
             for (int i = 1; i <= 5; i++) {
-                Shared.count++;
-                System.out.println(name + ": " + Shared.count);
+                SharedValue.count++;
+                System.out.println(name + ": " + SharedValue.count);
                 Thread.sleep(100);
             }
         } catch (InterruptedException e) {
@@ -61,8 +61,8 @@ class DecThread implements Runnable {
             semaphore.acquire();
             System.out.println("Thread " + name + " gets permission");
             for (int i = 1; i <= 5; i++) {
-                Shared.count--;
-                System.out.println(name + ": " + Shared.count);
+                SharedValue.count--;
+                System.out.println(name + ": " + SharedValue.count);
                 Thread.sleep(100);
             }
         } catch (InterruptedException e) {
