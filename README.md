@@ -1,5 +1,8 @@
 # JavaConcurrent
 
+ [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+ [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+ 
 Description project: In project covers the main interfaces, classes and features of the java.util.concurrent package.
 
 ![Image alt](https://github.com/SValentyn/JavaConcurrent/raw/master/image/concurrent.png)
@@ -15,5 +18,8 @@ Description project: In project covers the main interfaces, classes and features
 **•** Locks – it is an alternative and more flexible thread synchronization mechanism compared to the synchronized(), wait() and notify() base methods
 
 **•** Atomics – classes with support for atomic operations on primitives and references
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 I hope my project will help you! Communication with me: https://t.me/vlnt_snk
