@@ -5,7 +5,9 @@
  
 Description project: In project covers the main interfaces, classes and features of the java.util.concurrent package.
 
-![Image alt](https://github.com/SValentyn/JavaConcurrent/raw/master/image/concurrent.png)
+<p align="center">
+  <img  width="800" height="300" alt="Java_Concurrent" title="Java Concurrent" src="https://github.com/SValentyn/JavaConcurrent/raw/master/image/concurrent.png">
+</p>
 
 **•** Concurrent Collections – collections that work more efficiently in a multi-threaded environment than collections from the java.util package. Instead of the base wrapper - Collections.synchronizedList, blocking access to the entire collection uses blocking by data segments
 
